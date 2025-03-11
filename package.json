@@ -1,0 +1,75 @@
+{
+  "name": "nocturne-bloom",
+  "publisher": "Nocturne Bloom",
+  "description": "A theme crafted for those who seek elegance, immersion, and aesthetics in their coding environment.",
+  "version": "0.0.1",
+  "repository": {
+		"url": "https://github.com/nocturne-bloom/nocturne-bloom"
+	},
+	"author": {
+		"name": "Nocturne Bloom",
+		"email": "hi@nocturnebloomtheme.com"
+	},
+  "icon": "assets/icon.png",
+	"displayName": "Nocturne Bloom",
+	"keywords": [
+    "Pastel",
+    "Dark Mode",
+    "Elegant",
+    "Sophisticated",
+    "Minimalist",
+    "Modern",
+    "Clean Design",
+    "Soft Glow",
+    "Muted Tones",
+    "Iridescent",
+    "Atmospheric",
+    "Subtle Contrast",
+    "Serenity",
+    "Calm",
+    "Tranquility",
+    "Bloom",
+    "Twilight",
+    "Dusky",
+    "Ethereal",
+    "Dreamscape",
+    "Nightfall",
+    "Ember",
+    "Radiance",
+    "Luminescence",
+    "Developer Friendly",
+    "Visual Studio Code Theme",
+    "Syntax Highlighting",
+    "UI/UX Design",
+    "Code Readability",
+    "Accessibility",
+    "Eye Comfort",
+    "Productivity"
+  ],
+	"galleryBanner": {
+		"color": "#282A36",
+		"theme": "dark"
+	},
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+			{
+				"id": "nocturne-bloom-icons",
+				"label": "Nocturne Bloom Icons",
+				"path": "./icons/nocturne-bloom-icon-theme.json"
+			}
+		],
+    "themes": [
+      {
+        "label": "Nocturne Bloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nocturne-bloom-color-theme.json"
+      }
+    ]
+  }
+}
